@@ -122,4 +122,4 @@ if "latitude" in df.columns and "longitude" in df.columns:
 # ---------------- FOOTER ----------------
 st.markdown("---")
 
-st.markdown("### 🚀 Built with Python, Plotly & Streamlit")
+
