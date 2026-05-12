@@ -40,7 +40,7 @@ Futuristic Real Estate Analytics Dashboard using Python, Streamlit & Plotly.
 ---
 
 ## 🗺️ Property Map
-![Dashboard](maps.png)
+![Dashboard](Maps.png)
 
 ---
 
