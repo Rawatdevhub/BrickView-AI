@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import mysql.connector
+
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -94,16 +94,6 @@ section[data-testid="stSidebar"] {
 """, unsafe_allow_html=True)
 
 # ---------------- DATABASE CONNECTION ----------------
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Bhaskar@2007",
-    database="brickview"
-)
-
-query = "SELECT * FROM listings"
-
-df = pd.read_sql(query, conn)
 
 # lowercase columns
 df.columns = df.columns.str.lower()
