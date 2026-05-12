@@ -12,7 +12,11 @@ st.set_page_config(
 )
 
 # ---------------- FUTURISTIC UI ----------------
-st.markdown("""
+import pandas as pd
+
+df = pd.read_json("listings_final_expanded.json")
+
+df.columns = df.columns.str.lower()
 <style>
 
 /* Animated Gradient Background */
