@@ -29,13 +29,13 @@ Futuristic Real Estate Analytics Dashboard using Python, Streamlit & Plotly.
 
 ## 📸 Dashboard Preview
 
-![Dashboard](dashboard.png)
+dashboard.png
 
 ---
 
 ## 📊 Analytics Charts
 
-![Charts](charts.png)
+charts.png
 
 ---
 
